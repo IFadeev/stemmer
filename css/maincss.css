@@ -1,0 +1,44 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+}
+.content {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.textarea-inputs {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+textarea {
+	margin: 20px;
+	padding: 10px;
+	width: 400px;
+	height: 300px;
+	min-width: 250px;
+	max-width: 500px;
+	min-height: 150px;
+	max-height: 100px;
+}
+
+
+button {
+	width: 100px;
+	height: 30px;
+	align-self: flex-end;
+}
+
