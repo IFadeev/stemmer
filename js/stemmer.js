@@ -1,4 +1,4 @@
-﻿var stemmer = (function() {
+var stemmer = (function() {
     var endSTR = 0;
     var beginSTR = 0;    
     var DICT = {
@@ -21,7 +21,7 @@
     };
 
 
-    return function stemmer(word) {
+    return function stemmer(word) {
         word = word.replace(/\s+/g, ' ');
         word = word.replace(/ё/gi, 'e');
 	word = word.split(" ");
