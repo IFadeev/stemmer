@@ -100,12 +100,3 @@ var PorterStemRu = function() {
 		Stem_Cache = [];
 	}
 }
-
-/* Sample of using Porter stemmer in Javascript */
-/*
-var stemmer = new PorterStemRu();
-stemmer.Stem_Caching = 1; // 0|1 вкл/выкл кэш
-console.log(stemmer.stem_word('Профпригодность'));
-console.log(stemmer.stem_word('Просматривала'));
-stemmer.clear_stem_cache(); // Чистим кэш
-*/
