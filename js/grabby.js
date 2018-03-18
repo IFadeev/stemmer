@@ -1,6 +1,3 @@
-
-//wa[r]/n
-//wa[r]" "
 function grabby(argument) {
 	var word = argument;
 	var length = argument.length;
