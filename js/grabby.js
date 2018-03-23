@@ -23,7 +23,6 @@ function grabby(argument) {
 			}
 		}
 	}
-
 	console.log(beginSTR);
 	console.log(endSTR);
 	word = argument.substring(beginSTR, endSTR);
